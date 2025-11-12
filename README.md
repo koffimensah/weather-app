@@ -67,6 +67,14 @@ Visual Architecture Overview
                    │  (External)  │
                    └──────────────┘
 
+
+User → Web Frontend (React) → API Server → Backend Services (Zipcode, Weather, Result)
+                                                ↓
+                                    Redis (Cache) + MongoDB (Database)
+                                                ↓
+                                         OpenWeather API
+    
+
 Step-by-Step Workflow
 Phase 1: User Interaction
 
