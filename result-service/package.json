@@ -1,0 +1,14 @@
+{
+  "name": "result-service",
+  "version": "1.0.0",
+  "description": "Result Formatting and Retrieval Service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "redis": "^4.6.0"
+  }
+}
